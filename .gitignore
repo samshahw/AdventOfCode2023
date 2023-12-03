@@ -2,4 +2,5 @@
 /src/test/
 /target/
 /out/
+/pom.xml
 /*.iml
