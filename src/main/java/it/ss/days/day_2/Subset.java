@@ -1,4 +1,4 @@
-package it.ss.days.two;
+package it.ss.days.day_2;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

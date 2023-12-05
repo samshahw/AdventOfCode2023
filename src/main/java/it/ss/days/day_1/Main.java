@@ -1,4 +1,4 @@
-package it.ss.days.one;
+package it.ss.days.day_1;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -12,7 +12,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/day_one/input.txt"));
+        BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/day_1/input.txt"));
         List<Integer> numbersList = new ArrayList<>();
         Pattern pattern;
         Matcher matcher;
@@ -43,6 +43,7 @@ public class Main {
                 numbersList.add(number);
             }
         }
+        reader.close();
 
         int res = 0;
         for (int num : numbersList) {

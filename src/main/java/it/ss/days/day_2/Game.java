@@ -1,11 +1,11 @@
-package it.ss.days.two;
+package it.ss.days.day_2;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static it.ss.days.two.Main.*;
+import static it.ss.days.day_2.Main.*;
 
 public class Game {
 

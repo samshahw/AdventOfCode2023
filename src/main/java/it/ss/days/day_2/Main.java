@@ -1,4 +1,4 @@
-package it.ss.days.two;
+package it.ss.days.day_2;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -14,13 +14,14 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/day_two/input.txt"));
+        BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/day_2/input.txt"));
         List<Game> games = new ArrayList<>();
         String gameRow;
 
         while ((gameRow = reader.readLine()) != null) {
             games.add(new Game(gameRow));
         }
+        reader.close();
 
         int possibleGamesSum = 0;
         int setsPowerSum = 0;
