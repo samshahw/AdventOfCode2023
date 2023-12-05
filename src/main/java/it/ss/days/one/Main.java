@@ -49,6 +49,6 @@ public class Main {
             res += num;
         }
 
-        System.out.println("Final result is " + res);
+        System.out.printf("Final result is %d\n", res);
     }
 }
